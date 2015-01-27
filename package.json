@@ -1,0 +1,26 @@
+{
+  "name": "sailsrun",
+  "version": "0.0.1",
+  "description": "sailsrun is the `sails run` cli revival of the sailsjs.org 0.9 branch",
+  "keywords": [
+    "sailsrun",
+    "sails run",
+    "sails",
+    "sailsjs",
+    "sails.js"
+  ],
+  "main": "node_modules/sails/lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilhem Augendre",
+  "license": "MIT",
+  "bin": {
+    "sailsrun": "./bin/sailsrun.js"
+  },
+  "dependencies": {
+    "sails": "^0.10.5",
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+  }
+}
